@@ -117,7 +117,7 @@ def show_result():
     ''' показать панель ответов '''
     RadioGroupBox.hide()
     AnsGroupBox.show()
-    btn_OK.setText('Следующий вопрос')
+    btn_OK.setText('Следующий вопросoonnuuijiomkmoijkiojuyujoijooijmomoiiniouhuhresrserdhl,')
 
 
 def show_question():
@@ -158,10 +158,10 @@ def show_correct(res):
 def check_answer():
     ''' если выбран какой-то вариант ответа, то надо проверить и показать панель ответов'''
     if answers[0].isChecked():
-        show_correct('Правильно!')
+        show_correct('Правильно!!!')
     else:
         if answers[1].isChecked() or answers[2].isChecked() or answers[3].isChecked():
-            show_correct('Неверно!')
+            show_correct('Неверно!!')
 window = QWidget()
 window.cur_question = -1
 window.setLayout(layout_card)
